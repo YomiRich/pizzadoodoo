@@ -31,3 +31,8 @@ nav li a{
     font-size: 130%;
 
 }
+a:hover{
+  color: black;
+  background-color: yellow;
+  text-decoration: underline;
+}
