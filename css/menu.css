@@ -1,6 +1,6 @@
 body{
   display: flex;
-  background-image: url("/home/moringa/Documents/moringa-school-projects/pizzahub/images/b2.jpg");
+  background-image: url("https://peatzeria.com/wp-content/uploads/Red-Islay-pizza-background.png");
   background-repeat: no-repeat;
   background-size: cover;
   font-size: 120%;
@@ -35,4 +35,10 @@ a:hover{
   color: black;
   background-color: yellow;
   text-decoration: underline;
+}
+h2{
+  color: white;
+}
+p {
+  color: white;
 }
