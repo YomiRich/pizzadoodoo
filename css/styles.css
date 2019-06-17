@@ -1,16 +1,17 @@
 body{
   display: flex;
-  background-image: url("/home/moringa/Documents/moringa-school-projects/pizzahub/images/b5.jpg");
+  background-image: url("../images/b5.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   font-size: 120%;
-
+ margin-top: 50%;
 }
 h1{
     text-align: center;
     margin-left: 75%;
     color: #FFFFFF;
     font-size: 300%;
+    margin-top: 50%;
 }
 nav{
     background-color: none;
@@ -29,6 +30,7 @@ nav li a{
     color: white;
     text-size: 10px;
     font-size: 130%;
+    margin-top: 50%;
 
 }
 a:hover{

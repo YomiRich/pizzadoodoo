@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="css/menu.css">
+  <link href="css/bootstrap.css" rel="stylesheet" text="text/css"
   <link rel="shortcut icon" href="images/icon.png">
   <title>P!zzahat</title>
 </head>
@@ -30,7 +31,7 @@
 
     </nav>
     <br><br><br>
-    <table style="width:100%">
+       <table style="width:100%">
       <tr>
         <th>Size</th>
         <th>Pizza</th>
@@ -67,40 +68,46 @@
         <td>350</td>
       </tr>
     </table>
+
     <div class="toppings">
       <h2>Toppings</h2>
       <p>Sausage, caramelized onions, and fennel.</p>
       <p>Pepperoni, tomatoes, mushrooms, and onion</p>
-      <p>*All toppings cost Ksh 100</p><br>
+      <br>
       <h2>Order Below</h2>
-      <form action="/action_page.php">
+      <form>
         <p>Sizes</p>
-        <input type="checkbox" name="size" value="500"> Kadogo<br>
-        <input type="checkbox" name="Size" value="700"> Kubwa<br>
-        <input type="checkbox" name="size" value="900"> KubwaKabisa<br><br>
+        <input type="checkbox" id="kadogo" name="size" value="500"> Kadogo<br>
+        <input type="checkbox" id="kubwa" name="Size" value="700"> Kubwa<br>
+        <input type="checkbox" id="kubwakabisa" name="size" value="900"> KubwaKabisa<br><br>
         <p>Vegeterian</p>
-        <input type="checkbox" name="size" value="Dill Pickle Yum"> Dill Pickle Yum<br>
-        <input type="checkbox" name="Size" value="Kale Pesto"> Kale Pesto<br>
-        <input type="checkbox" name="size" value="V 4 Vegan"> V 4 Vegan<br><br>
+        <input type="checkbox" id="pickle" name="size" value="100"> Dill Pickle Yum<br>
+        <input type="checkbox" id="kale" name="Size" value="100"> Kale Pesto<br>
+        <input type="checkbox" id="vegan" name="size" value="100"> V 4 Vegan<br><br>
         <p>Chicken Pizza</p>
-        <input type="checkbox" name="size" value="BBQ Chicken"> BBQ Chicken<br>
-        <input type="checkbox" name="Size" value="Chicken Bruschetta"> Chicken Bruschetta<br>
-        <input type="checkbox" name="size" value="Honey Chipotle"> Honey Chipotle<br><br>
+        <input type="checkbox" id="bbq" name="size" value="150"> BBQ Chicken<br>
+        <input type="checkbox" id="chicken" name="Size" value="150"> Chicken Bruschetta<br>
+        <input type="checkbox" id="honey" name="size" value="150"> Honey Chipotle<br><br>
         <p>Crust</p>
-        <input type="checkbox" name="crust" value="200"> Crispy<br>
-        <input type="checkbox" name="crust" value="300"> Stuffed<br>
-        <input type="checkbox" name="crust" value="250"> Gluten Free<br><br>
-        <input type="checkbox" name="toppings" value="100"> Sausage, caramelized onions, and fennel.<br>
-        <input type="checkbox" name="toppings" value="250"> Pepperoni, tomatoes, mushrooms, and onion<br>
+        <input type="checkbox" id="crispy" name="crust" value="200"> Crispy<br>
+        <input type="checkbox" id="stuffed" name="crust" value="300"> Stuffed<br>
+        <input type="checkbox" id="gluttenfree" name="crust" value="250"> Gluten Free<br><br>
+        <p>Toppings</p>
+        <input type="checkbox" id="sausages" name="toppings" value="100"> Sausage, caramelized onions, and fennel.<br>
+        <input type="checkbox" id="pepperoni" name="toppings" value="250"> Pepperoni, tomatoes, mushrooms, and onion<br>
         <p>Multiple purchases</p>
         <input type="number" name="" value=""><br><br>
-        <button class="btn-danger" onclick="calculate()" name="button">SUBMIT</button>
+        <input type="submit" class="btn-danger foodtotal" value="SUBMIT" name="button">
       </form>
 
     </div>
     <br><br>
   </div>
-  <script src="js/jquery-3.4.1(1).js" charset="utf-8"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+
   <script src="js/scripts.js" charset="utf-8"></script>
 </body>
 
