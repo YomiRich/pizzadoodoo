@@ -170,7 +170,16 @@ console.log(total);
 }
 
 alert(total);
-prompt(Do you want it delivered at an exttra Ksh 150?);
+       function getLocation(){
+var locate = prompt("Enter your location");
+
+     if (locate != null){
+           alert("Thank you. Your pizza will be delivered");
+       };
+       };
+
+getLocation();
 });
+
 
 });

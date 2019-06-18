@@ -12,8 +12,8 @@ This is a modern platform that enables anyone in Kenya order healthy pizza by en
 | Buy Pizza   | Click on the boxes available     | Get sum after making an order   |
 
 ## Setup/Installation Requirements
-* Click on this link https://github.com/YomiRich/pizzadoodoo
-* Git clone https://github.com/YomiRich/pizzadoodoo.git
+* Click on this link https://github.com/YomiRich/pizzahat
+* Git clone https://github.com/YomiRich/pizzahat.git
 * Change direction (cd pizzahat).
 * Double click on the index.html or right click on the index.html file, then open with a browser(Chrome or Modzilla).
 * Enter numbers on the application to determine what type of triangle it forms.
