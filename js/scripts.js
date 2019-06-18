@@ -179,7 +179,16 @@ var locate = prompt("Enter your location");
        };
 
 getLocation();
-});
 
+function myDelivery(){
+var delivery = prompt("Confirm delivery at an extra cost of Ksh 150.");
+
+     if (locate != null){
+           alert("Thank you. Your pizza will be delivered");
+       };
+       };
+
+myDelivery();
+});
 
 });
