@@ -170,7 +170,7 @@ console.log(total);
 }
 
 alert(total);
-
+prompt(Do you want it delivered at an exttra Ksh 150?);
 });
 
 });
